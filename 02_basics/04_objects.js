@@ -1,4 +1,4 @@
-// const newtinderUser = new object() //singleton object
+const newtinderUser = new object() //singleton object
 const tinderUser = {} // non-singleton object 
 
 tinderUser.email = "p14@.com"
@@ -8,45 +8,42 @@ tinderUser.no = 18
 console.log(tinderUser);
 
 const regularUser = {
-    email: "p18@gmail.com" ,
-    {
-        username: {
-            fullname:
-            {
-                city: "pune",
-                id: 123
-            }
-
-        }
+    email: "p18@gmail.com",
+    fullname: {
+        userName: "crush01",
+        middle: "u",
+        lastName: "to"
     }
 }
 
-// const obj1 = {a: "1", b: "2" }
-// const obj2 = {d: "1", c: "2"}
+console.log(regularUser.fullname);
 
-// // const obj3 = {obj1, obj2}
-// // console.log(obj3);
+const obj1 = {a: "1", b: "2" }
+const obj2 = {d: "1", c: "2"}
 
-// // const obj4 = Object.assign ({ }, obj1, obj2)
-// const obj4 = {...obj1, ...obj2}
-// console.log(obj4);
+// const obj3 = {obj1, obj2}
+// console.log(obj3);
 
-// // array of object
+// const obj4 = Object.assign ({ }, obj1, obj2)
+const obj4 = {...obj1, ...obj2}
+console.log(obj4);
 
-// const user = [
-//     {
-//         name : "pratik",
-//         email : "pratik01@gmail.com",
-//         no : 96645
+// array of object
 
-//     },
-//     {
-//         pin : 414402,
-//         city : "pune"
-//     },
-//     {
+const user = [
+    {
+        name : "pratik",
+        email : "pratik01@gmail.com",
+        no : 96645
 
-//     }
-// ]
+    },
+    {
+        pin : 414402,
+        city : "pune"
+    },
+    {
+
+    }
+]
 
 // user[1].email
