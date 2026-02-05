@@ -11,7 +11,7 @@
 // user.welcomeMessage()
 
 // function newFun(){
-//     let username = "crush"
+//     let username = "crush" 
 //     console.log(this.username);
 
     
