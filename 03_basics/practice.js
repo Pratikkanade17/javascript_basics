@@ -1,26 +1,42 @@
-// syntax of array
+// // syntax of array
 
-const a = [1,2,3]
+// const a = [1,2,3]
 
-console.log(a[1]);
-
-
-// syntax of object
-
-const user = {
-    name: "",
-    id: 131,
-    pass:""
-}
-
-console.log(user.id);
+// console.log(a[1]);
 
 
-// syntax of function
+// // syntax of object
 
-function add (num1, num2){
-    return num1 + num2    
+// const user = {
+//     name: "",
+//     id: 131,
+//     pass:""
+// }
 
-}
+// console.log(user.id);
 
-console.log(add(2,3));
+
+// // syntax of function
+
+// function add (num1, num2){
+//     return num1 + num2    
+
+// }
+
+// console.log(add(2,3));
+
+
+
+
+
+
+
+console.log(a);
+var a = 10
+
+
+
+
+
+
+
