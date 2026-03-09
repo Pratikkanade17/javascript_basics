@@ -16,12 +16,23 @@
 //                     alert("please eneter the valid age")
 //                     }
                     
-const express = require('express')
-const app = express()
+// const express = require('express')
+// const app = express()
 
-app.get('/', (req, res) => {
-  res.send('Hello World')
-})
+// app.get('/', (req, res) => {
+//   res.send('Hello World')
+// })
 
-app.listen(3000)
+// app.listen(3000)
  
+function Person(name) {
+  this.name = name;
+}
+
+Person.prototype.sayHello = function() {
+  console.log("Hello " + this.name);
+};
+
+const p1 = new Person("Pratik");
+
+p1.sayHello();
