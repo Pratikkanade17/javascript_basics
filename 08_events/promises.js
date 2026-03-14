@@ -63,4 +63,27 @@ const PromiseFour = new Promise(function(resolve, reject) {
 ))
 
 
+const PromiseFive = new Promise(function(resolve, reject) {
+    setTimeout(function(){
+        let error = true;
+        if (!error) {
+            resolve({name: "pratik", password: 26});
+            
+        } else {
+            reject("something went wrong")
+        }
+         
+    }, 2000);
+})
 
+async function PromiseFiveConsume() {
+    try {
+       const response = await PromiseFive
+       console.log(response);
+       
+    } catch (error) {
+        console.log(error);
+    }
+    
+}
+PromiseFiveConsume()
