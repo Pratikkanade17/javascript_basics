@@ -1,14 +1,14 @@
-// const user = {
-//     name: "crush",
-//     id: 123,
+const user = {
+    name: "crush",
+    id: 123,
 
-//     welcomeMessage: function(){
-//         console.log(`my name is ${this.name}, and welcome`);
+    welcomeMessage: function(){
+        console.log(`my name is ${this.name}, and welcome`);
         
-//     }
-// }
+    }
+};
 
-// user.welcomeMessage()
+user.welcomeMessage()
 
 // function newFun(){
 //     let username = "crush" 
@@ -38,6 +38,6 @@
 // console.log(addtwo(2, 3))
 
 
-const addt = (num1, num2 ) => ({name: "crush"})
+// const addt = (num1, num2 ) => ({name: "crush"})
 
-console.log(addt(1,2));
+// console.log(addt(1,2));

@@ -1,33 +1,41 @@
-//  singleton 
+// //  singleton 
 
-// Objects Literals
+// // Objects Literals
 
-const jsUser = {
-    name : "pratik",
-    no : 18,
-    email : "pratikk@17.com"
+// const jsUser = {
+//     name : "pratik",
+//     no : 18,
+//     email : "pratikk@17.com"
 
-}
+// }
 
-console.log(jsUser.email);
-console.log(jsUser["email"]);
-jsUser.email= "crush@07.com"
-console.log(jsUser);
+// console.log(jsUser.email);
+// console.log(jsUser["email"]);
+// jsUser.email= "crush@07.com"
+// console.log(jsUser);
 
-jsUser.greeting = function(){
-    console.log("hello js user");
+// jsUser.greeting = function(){
+//     console.log("hello js user");
     
-}
+// }
 
-console.log(jsUser.greeting);
+// console.log(jsUser.greeting);
 
-jsUser.greeting2 = function(){
-    console.log(`hello js user, ${this.name}`);
+// jsUser.greeting2 = function(){
+//     console.log(`hello js user, ${this.name}`);
     
+// }
+// console.log(jsUser.greeting2);
+
+
+// practice 
+
+const user = {
+    name: "pratik",
+    id: 1545,
+    email: 'pk17@'
 }
-console.log(jsUser.greeting2);
 
 
-
-
-
+console.log(user.name)
+console.log(`my name is ${user.name}`)

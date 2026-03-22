@@ -55,37 +55,53 @@
 
 // function with objects and Arrays -->
 
-function calculatePrice (val1, ...num1){
-    return num1
-}
+// function calculatePrice (val1, ...num1){
+//     return num1
+// }
 
-console.log(calculatePrice(200,100,300));
+// console.log(calculatePrice(200,100,300));
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-const user = {      //Object
-    name: "crush",
-    age: 25,
-    id: "ab01"
-}
+// const user = {      //Object
+//     name: "crush",
+//     age: 25,
+//     id: "ab01"
+// }
 
-function handleObject(anyobject){   // function defination
-    console.log(`my name is ${anyobject.name} and my age is ${anyobject.age}`); 
+// function handleObject(anyobject){   // function defination
+//     console.log(`my name is ${anyobject.name} and my age is ${anyobject.age}`); 
     
 
-}
+// }
 
-handleObject(user) //function call
+// handleObject(user) //function call
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-const myArray = [10,20,30]
+// const myArray = [10,20,30]
 
-function newFun(newArray){
-    return newArray[1]
+// function newFun(newArray){
+//     return newArray[1]
 
-}
-// console.log(newFun(myArray));
-console.log(newFun([10,20,30]));
+// }
+// // console.log(newFun(myArray));
+// console.log(newFun([10,20,30]));
 
+
+// practice
+
+// function addTwonumbers(num1, num2){
+//    const result =num1 + num2;
+//     return result;
+// }
+
+// console.log(addTwonumbers(1,2))
+
+// ***************************************
+// arrow function
+const addTwonumbers = (num1, num2) => num1 + num2;
+
+
+console.log(addTwonumbers(1,2));
 
