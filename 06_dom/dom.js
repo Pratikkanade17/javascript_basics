@@ -28,18 +28,29 @@
 
 // parah.innerText= parah.innerText + "- i have changed this paragraph" // I have concanet two strings using +
 
-let divs = document.querySelectorAll(".child")
-// console.dir(newEle)
-// console.log(newEle);
+// let divs = document.querySelectorAll(".child")
+// // console.dir(newEle)
+// // console.log(newEle);
 
-// divs[0].innerText = "this is my firts box" // To chnage innertext of first box
+// // divs[0].innerText = "this is my firts box" // To chnage innertext of first box
 
-let idx = 1;
+// let idx = 1;
 
-for (div of divs){
-    div.innerText = `new box No. ${idx}`
-    idx++
+// for (div of divs){
+//     div.innerText = `new box No. ${idx}`
+//     idx++
 
-}
+// }
+
+// let para = document.querySelector("p")
+// console.log(para.getAttribute("class"));
+
+// let para = document.querySelector("p")
+// console.log(para.setAttribute("class", "newClass"));    
+
+let div = document.querySelectorAll(".child")
  
 
+div.forEach(function(item) {
+    item.style.backgroundColor = "red";
+});

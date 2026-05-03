@@ -6,8 +6,8 @@ coding.forEach(function(val){
 }) 
 
 
-const result = coding.map(function(val) {
-    return val;
-});
+// const result = coding.map(function(val) {
+//     return val;
+// });
 
-console.log(result);
+// console.log(result);
